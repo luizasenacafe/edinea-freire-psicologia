@@ -638,6 +638,12 @@ h3 {
   padding-block: 120px;
 }
 
+.testimonials h2 {
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.26);
+}
+
 .testimonial-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
