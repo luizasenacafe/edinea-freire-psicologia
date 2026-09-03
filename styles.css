@@ -384,12 +384,20 @@ h3 {
 
 .intro {
   padding-block: 120px;
+  color: #ffffff;
   text-align: center;
+}
+
+.intro .eyebrow {
+  color: #bcebf0;
 }
 
 .intro h2 {
   max-width: 870px;
   margin-inline: auto;
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.26);
 }
 
 .intro-columns {
@@ -402,14 +410,17 @@ h3 {
 
 .intro-columns p {
   margin: 0;
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
 }
 
 .center-note {
   max-width: 680px;
   margin: 48px auto 0;
   padding-top: 28px;
-  border-top: 1px solid var(--line);
-  color: var(--navy-800);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
   font-family: var(--serif);
   font-size: 1.25rem;
 }
